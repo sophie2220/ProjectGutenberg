@@ -189,6 +189,7 @@ public class ProjectGutenberg {
         BufferedReader reader = new BufferedReader(input);
         return reader;
     }
+    
     public static void main(String args[]) throws IOException {
         System.out.println("Number of words in the novel: " + getTotalNumberOfWords(makeBufferedReader(FILE_PATH)));
         System.out.println("Number of unique words in the novel: " + getTotalUniqueWords(makeBufferedReader(FILE_PATH)));
